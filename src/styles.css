@@ -1,0 +1,47 @@
+/* GERAL */
+body {
+}
+/*Flex Container*/
+.container {
+  margin: 0 auto;
+  color: orange;
+  max-width: 500px;
+  background-color: orange;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Flex */
+.item {
+  font-size: 1.8em;
+  text-align: center;
+  border-radius: 5px;
+  border: 1.5px solid orange;
+  background-color: black;
+}
+.cabecalho {
+  flex-basis: 800px;
+  margin-bottom: 0px;
+  padding: 10px;
+  background-color:yellow ;
+}
+
+.out {
+  flex-grow: 1;
+  background-color: yellow;
+}
+
+.section {
+  flex-direction: column;
+  flex-basis: 250px;
+  background-color: yellow;
+}
+
+.rodape {
+  flex-basis: 800px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 5px;
+  background-color: yellow;
+  border-radius: 10px;
+  border: 5px solid orange;
+}
